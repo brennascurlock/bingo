@@ -58,14 +58,14 @@ header{
 nav ul{
 	padding-bottom:25;
 	margin-left:15px;
-	margin-top: -20px;
+	margin-top: -25px;
 
 }
 
 nav ul li{
 	list-style: none;
 	display:inline;
-	padding:15px;
+	padding:10px 15px;
 	margin:0px 2px;
 	background-color: #DBE3E3;
 	text-align:center;
@@ -94,13 +94,41 @@ section.page{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	margin-top: -5px;
+	margin-top: 0px;
+	position:relative;
 }
 
 section.page > h1{
 	padding: 15px 15px 5px 15px;
 	font-size: 2em;
 	border-bottom: thin dotted #1D9CEB;
+}
+
+section.page p{
+	padding-right:300px;
+}
+
+
+form.login{
+	position:absolute;
+	right:10px;
+	top:10px;
+	background-color:#1E5ABA;
+	padding:10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	width:220px;
+}
+
+form.login li{
+	padding-bottom:5px;
+	position:relative;
+	color:white;
+}
+
+form.login input{
+	position:absolute;
+	right:0;
 }
 
 footer{
