@@ -135,3 +135,39 @@ footer{
 	color:white;
 	padding: 5px;
 }
+
+/*Leaderboard Page CSS*/
+
+section.rank-all h1
+{
+	font-size:1.5em;
+
+}
+
+section.rank-special h1
+{
+	font-size:1.5em;
+	position:relative;
+
+}
+
+section.rank-italian
+{
+	width:300px;
+	background:green;
+	position:absolute;
+}
+
+section.rank-mexican
+{
+	width:300px;
+	background:red;
+	position:absolute;
+}
+
+section.rank-chinese
+{
+	width:300px;
+	background:blue;
+	position:absolute;
+}
