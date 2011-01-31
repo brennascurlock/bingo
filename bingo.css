@@ -73,3 +73,36 @@ footer{
 	color:white;
 	padding: 5px;
 }
+
+/*Bingo Card*/
+
+ul.bingocard{
+	display:block;
+	margin:10px;
+	padding:10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width:700px;}
+
+ul.abc {
+	margin: 25px 5px;
+	
+}
+	
+ul.abc li{
+background:white;
+text-align:center;
+margin:8px;
+float:left;
+width:35px;
+padding:10px;
+-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: none; 	
+  	background‐image:	
+  ‐webkit-gradient(linear,0% 0%, 0%	100%, from(#fff), to(#bbb));	
+   	background‐image:	
+  ‐moz‐linear‐gradient(0 100% 90deg, #fff, #bbb);	
+  	
+}
