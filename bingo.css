@@ -82,7 +82,7 @@ section.bingocard{
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	width:80%;
-	background-color: gray;
+	background-color: black;
 	overflow:auto;
 }
 
@@ -90,7 +90,7 @@ ul.bingocard{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	background: gray;
+	background: black;
 	
 }
 
@@ -108,6 +108,23 @@ ul.bingocard{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	text-shadow: 1px 1px 2px #999;
+	box-shadow: 1px 1px 2px white;
 	list-style:none;
+	background-image:-webkit-gradient(linear, 0% 0%, 0% 81%, from(#666666), to(#F8F0FC), color-stop(1,#333333));
+	
   	
+}
+
+.ui-widget-header{
+padding: 10px;
+background:#ED871B;
+}
+
+.ui-widget-content{
+	background:white;
+	padding:10px;
+}
+
+.ui-icon ui-icon-closethick{
+padding:18px;
 }
