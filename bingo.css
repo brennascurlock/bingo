@@ -83,26 +83,29 @@ ul.bingocard{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	width:700px;}
-
-ul.abc {
-	margin: 25px 5px;
+	width:655px;
+	background: gray;
 	
 }
+
+ul.abc {
+	margin: 25px 5px;	
+}
 	
-ul.abc li{
-background:white;
-text-align:center;
-margin:8px;
-float:left;
-width:35px;
-padding:10px;
--moz-border-radius: 5px;
+.abc li{
+	background:white;
+	text-align:center;
+	margin:8px;
+	float:left;
+	width:35px;
+	padding:10px;
+	font-size: 25px;
+	font-weight:bold;
+	line-height:1.5;
+	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	border: none; 	
-  	background‐image:	
-  ‐webkit-gradient(linear,0% 0%, 0%	100%, from(#fff), to(#bbb));	
-   	background‐image:	
-  ‐moz‐linear‐gradient(0 100% 90deg, #fff, #bbb);	
+	text-shadow: 1px 1px 2px #999;
+	list-style:none;
+	
   	
 }
