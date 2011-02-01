@@ -55,6 +55,11 @@ header{
 
 }
 
+
+nav, header, section, footer{
+	display:block;
+}
+
 nav ul{
 	padding-bottom:25;
 	margin-left:15px;
@@ -165,19 +170,22 @@ section.rank-special
 section.rank-special h1
 {
 	font-size:1.5em;
-
+	border-bottom: thin dotted white;
+	margin-bottom:3px;
 }
 
 section.rank-special p
 {
 	padding:0px;
 	font-size:0.8em;
+
 }
 
 section.rank-special ol
 {
 	list-style:decimal;
 	margin-left:30px;
+	margin-top:3px;
 }
 
 section.rank-special ul > li
