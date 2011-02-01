@@ -96,6 +96,7 @@ section.page{
 	border-radius: 5px;
 	margin-top: 0px;
 	position:relative;
+
 }
 
 section.page > h1{
@@ -144,30 +145,52 @@ section.rank-all h1
 
 }
 
+section.rank-all ol
+{
+	list-style:decimal;
+	margin-left:30px;
+}
+
 section.rank-special h1
 {
 	font-size:1.5em;
-	position:relative;
 
 }
 
+section.rank-special p
+{
+	padding-right:0px;
+}
+
+section.rank-special ol
+{
+	list-style:decimal;
+	margin-left:30px;
+}
+
+section.rank-special li
+{
+	float:left;
+}
+
+
 section.rank-italian
 {
-	width:300px;
+	width:290px;
 	background:green;
-	position:absolute;
+	
 }
 
 section.rank-mexican
 {
-	width:300px;
+	width:290px;
 	background:red;
-	position:absolute;
+	
 }
 
 section.rank-chinese
 {
-	width:300px;
+	width:290px;
 	background:blue;
-	position:absolute;
+	
 }
