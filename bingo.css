@@ -61,7 +61,7 @@ nav, header, section, footer{
 }
 
 nav ul{
-	padding-bottom:25;
+	padding-bottom:25px;
 	margin-left:15px;
 	margin-top: -25px;
 
@@ -219,3 +219,59 @@ section.rank-chinese
 	overflow:auto;
 	padding:5px;
 }
+
+/*Bingo Card*/
+
+section.bingocard{
+	margin:10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width:80%;
+	background-color: black;
+	overflow:auto;
+}
+
+ul.bingocard{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: black;
+}
+
+	
+.abc li{
+	background-color:white;
+	text-align:center;
+	margin:8px;
+	float:left;
+	width:6.1%;
+	padding:10px;
+	font-size: 160%;
+	font-weight:bold;
+	line-height:1.5;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-shadow: 1px 1px 2px #999;
+	box-shadow: 1px 1px 2px white;
+	list-style:none;
+	background-image:-webkit-gradient(linear, 0% 0%, 0% 81%, from(#666666), to(#F8F0FC), color-stop(1,#333333));
+	
+  	
+}
+
+.ui-widget-header{
+padding: 10px;
+background:#ED871B;
+}
+
+.ui-widget-content{
+	background:white;
+	padding:10px;
+}
+
+.ui-icon ui-icon-closethick{
+padding:18px;
+}
+
+section, header, footer{display:block;}
