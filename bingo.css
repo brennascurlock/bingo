@@ -55,6 +55,11 @@ header{
 
 }
 
+
+nav, header, section, footer{
+	display:block;
+}
+
 nav ul{
 	padding-bottom:25;
 	margin-left:15px;
@@ -96,6 +101,7 @@ section.page{
 	border-radius: 5px;
 	margin-top: 0px;
 	position:relative;
+
 }
 
 section.page > h1{
@@ -134,4 +140,82 @@ form.login input{
 footer{
 	color:white;
 	padding: 5px;
+}
+
+/*Leaderboard Page CSS*/
+
+section.rank-all
+{
+	padding-left:10px;
+}
+
+section.rank-all h1
+{
+	font-size:1.5em;
+
+}
+
+section.rank-all ol
+{
+	list-style:decimal;
+	margin-left:30px;
+}
+
+section.rank-special
+{
+	overflow:auto;
+	padding-left:5px;
+}
+
+section.rank-special h1
+{
+	font-size:1.5em;
+	border-bottom: thin dotted white;
+	margin-bottom:3px;
+}
+
+section.rank-special p
+{
+	padding:0px;
+	font-size:0.8em;
+
+}
+
+section.rank-special ol
+{
+	list-style:decimal;
+	margin-left:30px;
+	margin-top:3px;
+}
+
+section.rank-special ul > li
+{
+	float:left;
+	padding-right:5px;
+}
+
+
+section.rank-italian
+{
+	width:280px;
+	background: rgb(0, 200, 55);
+	overflow:auto;
+	padding:5px;
+}
+
+
+section.rank-mexican
+{
+	width:280px;
+	background: rgba(255, 0, 0, 0.75);
+	overflow:auto;
+	padding:5px;
+}
+
+section.rank-chinese
+{
+	width:280px;
+	background: rgba(0, 0, 255, 0.5);
+	overflow:auto;
+	padding:5px;
 }
