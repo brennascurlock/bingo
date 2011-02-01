@@ -22,7 +22,7 @@ header{
 }
 
 nav ul{
-	padding-bottom:25;
+	padding-bottom:25px;
 	margin-left:15px;
 	margin-top: -20px;
 
@@ -91,7 +91,6 @@ ul.bingocard{
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	background: black;
-	
 }
 
 	
@@ -128,3 +127,5 @@ background:#ED871B;
 .ui-icon ui-icon-closethick{
 padding:18px;
 }
+
+section, header, footer{display:block;}
