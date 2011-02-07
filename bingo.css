@@ -107,9 +107,8 @@ form.login li{
 	color:white;
 }
 
-form.login input{
-	position:absolute;
-	right:0;
+form.login a{
+	color:white;
 }
 
 
