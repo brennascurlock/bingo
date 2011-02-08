@@ -1,10 +1,10 @@
 <nav>
 	<ul>
 		<li<?php if ($thisPage=="Home") 
-                echo " id=\"currentpage\""; ?>><a href="">Home</a></li>
+                echo " id=\"currentpage\""; ?>><a href="home.php">Home</a></li>
 		<li<?php if ($thisPage=="Leaderboard") 
-                echo " id=\"currentpage\""; ?>><a href="">Leaderboard</a></li>
+                echo " id=\"currentpage\""; ?>><a href="leaderboard.php">Leaderboard</a></li>
 		<li<?php if ($thisPage=="Restaurants") 
-                echo " id=\"currentpage\""; ?>><a href="">Restaurants</a></li>
+                echo " id=\"currentpage\""; ?>><a href="restaurants.php">Restaurants</a></li>
 	</ul>
 </nav>
