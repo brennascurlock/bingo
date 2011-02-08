@@ -8,14 +8,20 @@ $(document).ready(function() {
 				autoOpen: false,
 				title: $link.attr('title'),
 				width: 300,
-				height: 400
+				height: 300,
+                stack: false
+
 			});
 
 		$link.click(function() {
 			$dialog.dialog('open');
 
+            $('#visitdate').datepicker();
+
 			return false;
 		});
-		
+
 	});
+
 });
+
