@@ -21,6 +21,8 @@
 			title: 'Create your account'
 		});
 
+
+
 	$('form.login a').click(function() {
 		$dialog.dialog('open');
 		// prevent the default action, e.g., following a link
@@ -58,7 +60,7 @@
 			<li>Email: <input type="email" name="email" /></li>
 			<li>Password: <input type="password" name="password" /></li>
 			<li><input type="submit" value="Submit" /></li>
-			<li>Don't have an account? <a href='#'>Sign up!</a></li>
+			<li>Don't have an account? <a href='loginform.htm'>Sign up!</a></li>
 		</ul>	
 	</form>
 
