@@ -60,7 +60,7 @@ h1 {
 p{
 	padding:5px 10px;
 }
-	
+
 section.page{
 	padding:  5px;
 	background-color:#DBE3E3;
@@ -199,7 +199,7 @@ section.bingocard{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	width:80%;
+	width:685px;
 	background-color: black;
 	overflow:auto;
 }
@@ -211,13 +211,13 @@ ul.bingocard{
 	background: black;
 }
 
-	
+
 .abc li{
 	background-color:white;
 	text-align:center;
 	margin:8px;
 	float:left;
-	width:6.1%;
+	width:40px;
 	padding:10px;
 	font-size: 160%;
 	font-weight:bold;
@@ -243,7 +243,10 @@ form#visit > fieldset > label {
 	margin: 10px 0px;
 }
 
-	
+.ui-datepicker{
+    z-index: 9000;
+}
+
 .ui-datepicker-calendar{
 	font-size: small;
 	width: 200px;
@@ -280,7 +283,7 @@ background:#ED871B;
 }
 
 .ui-icon ui-icon-closethick{
-padding:18px;
+    padding:18px;
 }
 
 .ui-dialog-title{
@@ -289,10 +292,11 @@ padding:18px;
 }
 
 .ui-dialog-titlebar{
--moz-border-radius: 5px;
+    -moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
 
 .ui-dialog-titlebar-close{
 	float:right;
 }
+
