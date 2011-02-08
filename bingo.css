@@ -227,9 +227,46 @@ ul.bingocard{
 	box-shadow: 1px 1px 2px white;
 	list-style:none;
 	background-image:-webkit-gradient(linear, 0% 0%, 0% 81%, from(#666666), to(#F8F0FC), color-stop(1,#333333));
-	
-  	
 }
+
+}
+
+/*Visit Information Form*/
+
+form#visit > fieldset > label {
+	display: block;
+	color:red;
+}
+
+#visit fieldset {
+	margin: 10px 0px;
+}
+
+	
+.ui-datepicker-calendar{
+	font-size: small;
+	width: 200px;
+}
+.ui-datepicker-calendar  > tr{
+	border-bottom: thin solid;
+}
+
+.ui-datepicker-next, .ui-datepicker-prev {
+	font-size: small;
+	color:white;
+}
+
+.ui-datepicker-next{
+	float: right;
+}
+
+.ui-datepicker-title{
+	color: white;
+	font-weight:bold;
+	padding-top: 5px;
+}
+
+/*Visit Form Overlay*/
 
 .ui-widget-header{
 padding: 10px;
@@ -245,4 +282,16 @@ background:#ED871B;
 padding:18px;
 }
 
+.ui-dialog-title{
+	color:white;
+	font-weight:bold;
+}
 
+.ui-dialog-titlebar{
+-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.ui-dialog-titlebar-close{
+	float:right;
+}
