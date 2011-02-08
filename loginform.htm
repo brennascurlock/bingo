@@ -3,23 +3,28 @@
 
 <head>
 <meta charset="utf-8" />
-<title>Page Title</title>
+<title>Enter your information.</title>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css" />
+<link rel="stylesheet" href="bingo.css" />
 </head>
 
 <body>
+  
+  <section class="page">
     
-	<form id="account">
+	<form class="newaccount">
+		
 		<ul>
-			<li>First Name: <input type="text" name="firstname" /></li>
-			<li>Last Name: <input type="text" name="lastname" /></li>
-                        <li>Email Address: <input type="email" name="email" /></li>
-			<li>Password: <input type="password" name="password" /></li>
-                        <li>Password (confirm): <input type="password" name="password" /></li>
+			<li><label for="firstname">First Name</label><input type="text" name="firstname" id="firstname" /></li>
+			<li><label for="lastname">Last Name</label><input type="text" name="lastname" id="lastname" /></li>
+			<li><label for="email">Email</label><input type="email" name="email" id="email" /></li>
+			<li><label for="password">Password</label><input type="password" name="password" id="password" /></li>
+			<li><label for="passconfirm">Confirm Password</label><input type="password" name="password" id="passconfirm" /></li>
 			<li><input type="submit" value="Create!" /></li>
-		</ul>	
+		</ul>
 	</form>   
     
-    
+  </section>
     
 </body>
 

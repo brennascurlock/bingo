@@ -13,22 +13,26 @@
 
 <script>
 
-	$(document).ready(function() {
+$(document).ready(function() {
+	
+	$('form.login a').each(function() {
+	var $link = $(this);
 	var $dialog = $('<div></div>')
-		.load('loginform.htm')
+		.load($link.attr('href'))
 		.dialog({
 			autoOpen: false,
-			title: 'Create your account'
+			title: "Enter your information.",
+			width:400,
+			height:200
 		});
-
-
-
-	$('form.login a').click(function() {
+	
+	$link.click(function() {
 		$dialog.dialog('open');
 		// prevent the default action, e.g., following a link
 		return false;
 		});
 	});
+});
 	
 </script>
 
@@ -60,7 +64,7 @@
 			<li>Email: <input type="email" name="email" /></li>
 			<li>Password: <input type="password" name="password" /></li>
 			<li><input type="submit" value="Submit" /></li>
-			<li>Don't have an account? <a href='loginform.htm'>Sign up!</a></li>
+			<li>Don't have an account? <a href='./loginform.htm'>Sign up!</a></li>
 		</ul>	
 	</form>
 
