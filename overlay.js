@@ -1,7 +1,6 @@
 $(document).ready(function() {
-var currentId = $(this).attr('id');
 
-	$((currentId).each(function() {
+	$('#A').each(function() {
 		var $link = $(this);
 		var $dialog = $('<div></div>')
 			.load($link.attr('href'))
