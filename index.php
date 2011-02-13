@@ -42,7 +42,7 @@
 			<li>Password: <input type="password" name="password" /></li>
 			<li><input type="submit" value="Submit" /></li>
 			<li>Don't have an account?</li>
-			<li><a href='./loginform.htm' title="Enter your information.">Sign up!</a></li>
+			<li><a href='./loginform.htm' title="Enter your information." class="popup">Sign up!</a></li>
 		</ul>	
 	</form>
 
