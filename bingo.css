@@ -105,7 +105,7 @@ footer{
 form.login{
 	position:absolute;
 	right:10px;
-	top:20px;
+	top:30px;
 	background-color:#1E5ABA;
 	padding:10px;
 	-moz-border-radius:5px;
@@ -121,21 +121,14 @@ form.login li{
 
 form.login a{
 	color:white;
+	text-decoration:underline;
 }
 
 .boxtitle{
 	font-weight:bold;
 }
 
-form.newaccount label {
-	float:left;
-	display:block;
-}
 
-form.newaccount input {
-	float:right;
-	display:block;
-}
 /*Leaderboard Page CSS*/
 
 section.rank-all
@@ -143,6 +136,8 @@ section.rank-all
 	margin-left:25px;
 	padding:10px;
 	width:575px;
+	position:relative;
+	background-color:white;
 }
 
 section.rank-all h1
@@ -151,9 +146,21 @@ section.rank-all h1
 
 }
 
-section.rank-all li{
-	list-style-type:decimal;
-	margin-left:30px;
+section.rank-all ol li{
+	padding-top:5px;
+	
+}
+
+section.rank-all ul > li + li{
+	position:absolute;
+	top:10px;
+	left:80px;
+}
+
+section.rank-all ul > li + li + li{
+	position:absolute;
+	top:10px;
+	left:240px;
 }
 
 section.rankspecial{
@@ -163,6 +170,8 @@ section.rankspecial{
 	top:20px;
 	background: rgba(0, 200, 55, 0.5);
 	padding:10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
 }
 
 section.rankspecial h1{
