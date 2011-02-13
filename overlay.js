@@ -1,24 +1,25 @@
 $(document).ready(function() {
 
-	$('#A').each(function() {
+	$('.popup').each(function() {
 		var $link = $(this);
 		var $dialog = $('<div></div>')
 			.load($link.attr('href'))
 			.dialog({
 				autoOpen: false,
 				title: $link.attr('title'),
-				width: 300,
-				height: 300,
-                stack: false
+				width: 400,
+				
+				//stack: false
 
 			});
 
 		$link.click(function() {
 			$dialog.dialog('open');
-
+			return false;
+			
             $('#visitdate').datepicker();
 
-			return false;
+			//return false;
 		});
 
 	});
@@ -29,7 +30,7 @@ $(document).ready(function() {
 		});
 	});
 
-	$('form.login a').each(function() {
+	/* $('form.login a').each(function() {
 	var $link = $(this);
 	var $dialog = $('<div></div>')
 		.load($link.attr('href'))
@@ -46,7 +47,7 @@ $(document).ready(function() {
 		return false;
 		});
 	});
-
+	*/
 
 });
 
