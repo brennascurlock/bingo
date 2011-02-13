@@ -33,7 +33,25 @@
 		
 		<ul>
 		
-		<li><h1>Top Players</h1>
+		<li><h1>Rank</h1>
+		
+			<ol>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+						<li>8</li>
+						<li>9</li>
+						<li>10</li>
+						<li><a href="">View All</a></li>
+			</ol>	
+			
+		</li>
+		
+		<li><h1>Player Name</h1>
 		
 			<ol>
 						<li>Tom Cruise</li>
@@ -46,30 +64,28 @@
 						<li>Mr. Suffleupagus</li>
 						<li>Rip Torn</li>
 						<li>Roadrunner</li>
-			</ol>
-			
-			<p><a href="">View All</a></p>
+			</ol>	
 			
 		</li>
 		
 		<li><h1>Percent Complete</h1>
 		
 			<ol>
-						<li>80%</li>
-						<li>75%</li>
-						<li>75%</li>
-						<li>60%</li>
-						<li>55%</li>
-						<li>45%</li>
-						<li>40%</li>
-						<li>35%</li>
-						<li>35%</li>
-						<li>30%</li>
+						<li>80% (20 out of 26)</li>
+						<li>75% (19 out of 26)</li>
+						<li>75% (19 out of 26)</li>
+						<li>60% (15 out of 26)</li>
+						<li>55% (14 out of 26)</li>
+						<li>45% (12 out of 26)</li>
+						<li>40% (10 out of 26)</li>
+						<li>35% (9 out of 26)</li>
+						<li>35% (9 out of 26)</li>
+						<li>30% (8 out of 26)</li>
 			</ol>
-		
 		
 		</li>
 		
+		</ul>
 
 	</section>
 
