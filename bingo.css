@@ -66,6 +66,8 @@ a {
 
 h1 {
 	font-size:3em;
+	font-family: 'Cabin', arial, serif;
+	font-weight:bold;
 }
 
 p{
