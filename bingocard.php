@@ -25,7 +25,7 @@
 		<ul>
 			<li>
 				<ul class="abc">
-					<li><a id="A" href="./visit_form.htm" title="Enter Visit Information" >A</a></li>
+					<li><a class="popup" id="A" href="./visit_form.htm" title="Enter Visit Information" >A</a></li>
 					<li>B</li>
 					<li>C</li>
 					<li>D</li>
@@ -70,10 +70,26 @@
 		<aside>	
 
 		<ul class="profile">
-			<img class="profile" src="bunny.jpg" /></li>
-			<li class="boxtitle">Da Bunny</li>
-			<li>Bugs Bunny</li>
-		</ul>	
+			<li>
+				<ul class="personal">
+					<li><img class="profile" src="bunny.jpg" /></li>
+					<li class="boxtitle">DaBunny</li>
+					<li class="personal">Bugs Bunny</li>
+					<li class="personal">joined 02/11</li>
+				</ul>
+			</li>
+			
+			<li>
+				<ul class="rank">
+					<li class="subheading">Challenge:</li>
+					<li>36% complete</li>
+					<li class="subheading">Rank:</li>
+					<li>Overall: 234</li>
+					<li>Italian: 22</li>
+				</ul>
+			</li>
+		</ul>
+		
 
    </aside>
 </section>

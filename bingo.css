@@ -272,14 +272,34 @@ ul.profile li{
 	padding-bottom:5px;
 	position:relative;
 	color:white;
+}
+
+ul.personal{
+	border-bottom: thin dotted white;
+}
+
+li.personal{
 	font-size: small;
+	padding-left: 5px;
+	color: rgba(255, 255, 255, 0.1);
+}
+
+ul.rank{
+	margin-top: 25px;
+	font-size: small;
+	background-color: rgba(255, 255, 255, 0.25);
+	padding:5px 5px 0px 5px;
+}
+
+ul.rank li.subheading{
+	padding-top: 5px;
+	font-weight: bold;
 }
 
 img.profile{
 	float: right;
 	border: thin solid white;
 	width: 85px;
-	
 }
 
 /*Visit Information Form*/
