@@ -16,18 +16,6 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script>
 <script src="overlay.js"></script>
 
-
-<script>
-	$(function() {
-		$( "#accordion" ).accordion({
-			collapsible: true
-		});
-	});
-
-
-</script>
-
-
 </head>
 
 <body>

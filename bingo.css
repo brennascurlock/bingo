@@ -130,11 +130,13 @@ form.login a{
 }
 
 form.newaccount label {
-	
+	float:right;
+	display:block;
 }
 
 form.newaccount input {
-	
+	float:right;
+	display:block;
 }
 /*Leaderboard Page CSS*/
 

@@ -23,5 +23,30 @@ $(document).ready(function() {
 
 	});
 
+	$(function() {
+		$( "#accordion" ).accordion({
+			collapsible: true
+		});
+	});
+
+	$('form.login a').each(function() {
+	var $link = $(this);
+	var $dialog = $('<div></div>')
+		.load($link.attr('href'))
+		.dialog({
+			autoOpen: false,
+			title: "Enter your information.",
+			width:400,
+			height:200
+		});
+	
+	$link.click(function() {
+		$dialog.dialog('open');
+		// prevent the default action, e.g., following a link
+		return false;
+		});
+	});
+
+
 });
 
