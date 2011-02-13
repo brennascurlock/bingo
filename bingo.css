@@ -99,6 +99,17 @@ footer{
 	padding: 5px;
 }
 
+/*Rules of the Game*/
+
+article.rules{
+	padding-left:20px;	
+}
+
+
+
+article.rules li{
+	list-style-type:decimal;
+}
 
 /*Login Form CSS*/
 
