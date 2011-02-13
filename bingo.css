@@ -15,13 +15,27 @@ body{
 header{
 	background:#ED871B;
 	margin-top: 10px;
-	padding:25px;
-	padding-bottom:55px;
+	padding:15px;
+	padding-bottom:80px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	color:white;
+	position:relative;
+}
 
+img#logo{
+	padding-right:10px;
+	float:left;
+	width:150px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+nav{
+	position:absolute;
+	right:5px;
+	bottom:10px;
 }
 
 nav, header, section, footer{
@@ -29,10 +43,7 @@ nav, header, section, footer{
 }
 
 nav ul{
-	padding-bottom:2px;
-	margin-left:15px;
-	margin-top: -25px;
-
+	
 }
 
 nav ul li{
@@ -42,9 +53,9 @@ nav ul li{
 	margin:0px 2px;
 	background-color: #DBE3E3;
 	text-align:center;
-	-moz-border-radius: 15px;
-	-webkit-border-radius: 15px;
-	border-radius: 15px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
 }
 
 a {
@@ -67,7 +78,7 @@ section.page{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	margin-top: 0px;
+	margin-top: -10px;
 	position:relative;
 
 }
@@ -76,10 +87,11 @@ section.page > h1{
 	padding: 15px 15px 5px 15px;
 	font-size: 2em;
 	border-bottom: thin dotted #1D9CEB;
+	width:600px;
 }
 
 section.page p{
-	padding-right:300px;
+	width:600px;
 }
 
 footer{
@@ -109,6 +121,10 @@ form.login li{
 
 form.login a{
 	color:white;
+}
+
+.boxtitle{
+	font-weight:bold;
 }
 
 form.newaccount label {

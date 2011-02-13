@@ -1,3 +1,10 @@
+<header>
+	
+	<img id="logo" src="bingo_logo_small.png" />
+	
+	<h1>Restaurant Bingo</h1>
+	<h2>Fun for Foodies</h3>
+
 <nav>
 	<ul>
 		<li<?php if ($thisPage=="Home") 
@@ -8,3 +15,5 @@
                 echo " id=\"currentpage\""; ?>><a href="restaurants.php">Restaurants</a></li>
 	</ul>
 </nav>
+
+</header>

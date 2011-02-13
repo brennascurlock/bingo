@@ -41,11 +41,6 @@ $(document).ready(function() {
 
 <body>
 
-<header>
-	<h1>Restaurant Bingo</h1>
-	<h2>Fun for Foodies</h3>
-</header>
-
 <?php include("navigation.php"); ?>
 
 <section class="page">
@@ -58,16 +53,20 @@ $(document).ready(function() {
 
 	<p>Nulla ultrices laoreet eros eget mattis. Aliquam ut rhoncus libero. Vestibulum ac augue felis. Phasellus rhoncus gravida erat. Pellentesque ante mi, egestas quis iaculis vitae, lobortis id lectus. Pellentesque volutpat arcu eget augue tincidunt cursus. Maecenas luctus porta consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam in orci sed neque porta adipiscing vitae sed dolor. Integer mollis fermentum velit, vitae luctus ipsum imperdiet sit amet. Aliquam quis tempus nisl. Cras vel est tortor.</p> 
 
+   <aside>	
+	
 	<form class="login">
 		<ul>
-			<li>Login</li>
+			<li class="boxtitle">Login</li>
 			<li>Email: <input type="email" name="email" /></li>
 			<li>Password: <input type="password" name="password" /></li>
 			<li><input type="submit" value="Submit" /></li>
-			<li>Don't have an account? <a href='./loginform.htm'>Sign up!</a></li>
+			<li>Don't have an account?</li>
+			<li><a href='./loginform.htm'>Sign up!</a></li>
 		</ul>	
 	</form>
 
+   </aside>
 
 </section>
 
