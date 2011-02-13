@@ -31,7 +31,9 @@
 
 	<section class="rank-all">
 		
-		<h1>All Players</h1>
+		<ul>
+		
+		<li><h1>Top Players</h1>
 		
 			<ol>
 						<li>Tom Cruise</li>
@@ -47,19 +49,41 @@
 			</ol>
 			
 			<p><a href="">View All</a></p>
+			
+		</li>
+		
+		<li><h1>Percent Complete</h1>
+		
+			<ol>
+						<li>80%</li>
+						<li>75%</li>
+						<li>75%</li>
+						<li>60%</li>
+						<li>55%</li>
+						<li>45%</li>
+						<li>40%</li>
+						<li>35%</li>
+						<li>35%</li>
+						<li>30%</li>
+			</ol>
+		
+		
+		</li>
+		
 
 	</section>
 
 
+	<section class="rankspecial">
+		
+		<h1>Categories</h1>
+	
 	<div id="accordion">
 		
-		
-		<h3><a href="#">Italian</a></h3>
+		<h1><a href="#">Italian</a></h1>
 				
 			<div>
-			
-				<p>Those who <i>mangia bene!</i></p>
-			
+
 				<ol>
 					<li>Tom Cruise</li>
 					<li>Bugs Bunny</li>
@@ -73,12 +97,10 @@
 			</div>
     
 		
-		<h3><a href="#">Mexican</a></h3>
+		<h1><a href="#">Mexican</a></h1>
 				
 			<div>
-			
-				<p>Those who like it hot.</p>
-			
+
 				<ol>
 					<li>Abe Lincoln</li>
 					<li>Harry Potter</li>
@@ -91,12 +113,10 @@
 			
 			</div>
 		
-		<h3><a href="#">Chinese</a></h3>			
+		<h1><a href="#">Chinese</a></h1>			
 			
 			<div>
-			
-				<p>For those who like it with a fortune cookie.</p>
-			
+
 				<ol>
 					<li>Elmer Fudd</li>
 					<li>Harvey Birdman</li>
@@ -111,6 +131,8 @@
 		
 
 	</div>
+
+	</section>
 
 </section>
 

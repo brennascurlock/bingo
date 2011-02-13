@@ -28,8 +28,6 @@ img#logo{
 	padding-right:10px;
 	float:left;
 	width:150px;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
 }
 
 nav{
@@ -107,7 +105,7 @@ footer{
 form.login{
 	position:absolute;
 	right:10px;
-	top:10px;
+	top:20px;
 	background-color:#1E5ABA;
 	padding:10px;
 	-moz-border-radius:5px;
@@ -130,7 +128,7 @@ form.login a{
 }
 
 form.newaccount label {
-	float:right;
+	float:left;
 	display:block;
 }
 
@@ -142,79 +140,55 @@ form.newaccount input {
 
 section.rank-all
 {
-	padding-left:10px;
+	margin-left:25px;
+	padding:10px;
+	width:575px;
 }
 
 section.rank-all h1
 {
-	font-size:1.5em;
+	font-size:1.2em;
 
 }
 
-section.rank-all ol
-{
-	list-style:decimal;
+section.rank-all li{
+	list-style-type:decimal;
 	margin-left:30px;
 }
 
-section.rank-special
-{
-	overflow:auto;
-	padding-left:5px;
+section.rankspecial{
+	width:220px;
+	position:absolute;
+	right:10px;
+	top:20px;
+	background: rgba(0, 200, 55, 0.5);
+	padding:10px;
 }
 
-section.rank-special h1
-{
-	font-size:1.5em;
-	border-bottom: thin dotted white;
-	margin-bottom:3px;
+section.rankspecial h1{
+	font-size:1.75em;
 }
 
-section.rank-special p
-{
-	padding:0px;
-	font-size:0.8em;
-
+#accordion h1{
+	font-size:1.2em;
+	padding-left:10px;
+	padding-top:5px;
 }
 
-section.rank-special ol
-{
-	list-style:decimal;
-	margin-left:30px;
-	margin-top:3px;
+#accordion h1 a{
+	color:black;
 }
 
-section.rank-special ul > li
-{
-	float:left;
-	padding-right:5px;
+#accordion ol{
+	padding-left:20px;
 }
 
-
-section.rank-italian
-{
-	width:280px;
-	background: rgb(0, 200, 55);
-	overflow:auto;
-	padding:5px;
+#accordion li{
+	list-style-type:decimal;
+	padding-bottom:5px;
 }
 
 
-section.rank-mexican
-{
-	width:280px;
-	background: rgba(255, 0, 0, 0.75);
-	overflow:auto;
-	padding:5px;
-}
-
-section.rank-chinese
-{
-	width:280px;
-	background: rgba(0, 0, 255, 0.5);
-	overflow:auto;
-	padding:5px;
-}
 
 /*Bingo Card*/
 
@@ -322,4 +296,14 @@ background:#ED871B;
 
 .ui-dialog-titlebar-close{
 	float:right;
+}
+
+/*Special Leaderboard CSS*/
+h1.ui-state-active{
+	background-color: rgba(255, 255, 255, 0.25);
+}
+
+.ui-accordion-content{
+	background-color: rgba(255, 255, 255, 0.25);
+	padding-bottom:0px;
 }
