@@ -15,10 +15,6 @@
 
 <body>
 
-<header>
-	<h1>Restaurant Bingo</h1>
-	<h2>Fun for Foodies</h2>
-</header>
 
 <?php include("navigation.php"); ?>
 
@@ -71,6 +67,15 @@
 			
 		</ul>
 		</section>
+		<aside>	
+
+		<ul class="profile">
+			<img class="profile" src="bunny.jpg" /></li>
+			<li class="boxtitle">Da Bunny</li>
+			<li>Bugs Bunny</li>
+		</ul>	
+
+   </aside>
 </section>
 
 <footer>
