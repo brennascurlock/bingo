@@ -1,13 +1,16 @@
+<!DOCTYPE html>
 <html>
 
 <head>
 <meta charset="utf-8" />
-<title>Home</title>
-<link rel="stylesheet" type="text/css" media="screen, print" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css" />
-<link rel="stylesheet" href="bingo.css" />
+<title>Page Title</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script>
-<script src="datepicker.js"></script>
+<script src="overlay.js"></script>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css" />
+<link rel="stylesheet" href="bingo.css" />
+</head>
+
 <body>
 	<section class="page">
 	<form id="visit">
@@ -15,7 +18,7 @@
 			<label for="rest_name">Restaurant Name</label>
 			<input type="text" id="rest_name" />
 		</fieldset>
-		
+
 		<fieldset>
 			<label for="cuisine">Cuisine</label>
 			<select id="cuisine">
@@ -25,16 +28,19 @@
 				<option value="italian">Italian</option>
 			</select>
 		</fieldset>
-		
+
 		<fieldset>
 			<label for="visitdate">Date</label>
 			<input type="text" id="visitdate" />
 		</fieldset>
-		
+
 		<input type="submit" value="Submit" />
-		
+
 	</form>
+
+
 	</section>
 </body>
 
 </html>
+
