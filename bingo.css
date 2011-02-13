@@ -102,7 +102,7 @@ footer{
 
 /*Login Form CSS*/
 
-form.login{
+form.login, ul.profile{
 	position:absolute;
 	right:10px;
 	top:30px;
@@ -206,7 +206,7 @@ section.bingocard{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	width:685px;
+	width:595px;
 	background-color: black;
 	overflow:auto;
 }
@@ -224,11 +224,11 @@ ul.bingocard{
 	text-align:center;
 	margin:8px;
 	float:left;
-	width:40px;
+	width:30px;
 	padding:10px;
 	font-size: 160%;
 	font-weight:bold;
-	line-height:1.5;
+	line-height:1;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	text-shadow: 1px 1px 2px #999;
@@ -237,6 +237,52 @@ ul.bingocard{
 	background-image:-webkit-gradient(linear, 0% 0%, 0% 81%, from(#666666), to(#F8F0FC), color-stop(1,#333333));
 }
 
+/*User Profile*/
+
+ul.profile{
+	position:absolute;
+	right:10px;
+	top:10px;
+	background-color:#1E5ABA;
+	padding:10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	width:220px;
+}
+
+
+ul.profile li{
+	padding-bottom:5px;
+	position:relative;
+	color:white;
+}
+
+ul.personal{
+	border-bottom: thin dotted white;
+}
+
+li.personal{
+	font-size: small;
+	padding-left: 5px;
+	color: rgba(255, 255, 255, 0.1);
+}
+
+ul.rank{
+	margin-top: 25px;
+	font-size: small;
+	background-color: rgba(255, 255, 255, 0.25);
+	padding:5px 5px 0px 5px;
+}
+
+ul.rank li.subheading{
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+img.profile{
+	float: right;
+	border: thin solid white;
+	width: 85px;
 }
 
 /*Visit Information Form*/
@@ -299,7 +345,7 @@ background:#ED871B;
 }
 
 .ui-dialog-titlebar{
-    -moz-border-radius: 5px;
+	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
 
