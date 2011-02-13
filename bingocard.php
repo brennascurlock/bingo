@@ -26,41 +26,41 @@
 			<li>
 				<ul class="abc">
 					<li><a class="popup" id="A" href="./visit_form.htm" title="Enter Visit Information" >A</a></li>
-					<li>B</li>
-					<li>C</li>
-					<li>D</li>
-					<li>E</li>
-					<li>F</li>
-					<li>G</li>
-					<li>H</li>
-					<li>I</li>
+					<li><a class="popup" id="B" href="./visit_form.htm" title="Enter Visit Information" >B</a></li>
+					<li><a class="popup" id="C" href="./visit_form.htm" title="Enter Visit Information" >C</a></li>
+					<li><a class="popup" id="D" href="./visit_form.htm" title="Enter Visit Information" >D</a></li>
+					<li><a class="popup" id="E" href="./visit_form.htm" title="Enter Visit Information" >E</a></li>
+					<li><a class="popup" id="F" href="./visit_form.htm" title="Enter Visit Information" >F</a></li>
+					<li><a class="popup" id="G" href="./visit_form.htm" title="Enter Visit Information" >G</a></li>
+					<li><a class="popup" id="H" href="./visit_form.htm" title="Enter Visit Information" >H</a></li>
+					<li><a class="popup" id="I" href="./visit_form.htm" title="Enter Visit Information" >I</a></li>
 				</ul>
 			</li>
 
 			<li>
 				<ul class="abc">
-					<li>J</li>
-					<li>K</li>
-					<li>L</li>
-					<li>M</li>
-					<li>N</li>
-					<li>O</li>
-					<li>P</li>
-					<li>Q</li>
-					<li>R</li>
+					<li><a class="popup" id="J" href="./visit_form.htm" title="Enter Visit Information" >J</a></li>
+					<li><a class="popup" id="K" href="./visit_form.htm" title="Enter Visit Information" >K</a></li>
+					<li><a class="popup" id="L" href="./visit_form.htm" title="Enter Visit Information" >L</a></li>
+					<li><a class="popup" id="M" href="./visit_form.htm" title="Enter Visit Information" >M</a></li>
+					<li><a class="popup" id="N" href="./visit_form.htm" title="Enter Visit Information" >N</a></li>
+					<li><a class="popup" id="O" href="./visit_form.htm" title="Enter Visit Information" >O</a></li>
+					<li><a class="popup" id="P" href="./visit_form.htm" title="Enter Visit Information" >P</a></li>
+					<li><a class="popup" id="Q" href="./visit_form.htm" title="Enter Visit Information" >Q</a></li>
+					<li><a class="popup" id="R" href="./visit_form.htm" title="Enter Visit Information" >R</a></li>
 				</ul>
 			</li>
 			
 			<li>
 				<ul class="abc">
-					<li>S</li>
-					<li>T</li>
-					<li>U</li>
-					<li>V</li>
-					<li>W</li>
-					<li>X</li>
-					<li>Y</li>
-					<li>Z</li>
+					<li><a class="popup" id="S" href="./visit_form.htm" title="Enter Visit Information" >S</a></li>
+					<li><a class="popup" id="T" href="./visit_form.htm" title="Enter Visit Information" >T</a></li>
+					<li><a class="popup" id="U" href="./visit_form.htm" title="Enter Visit Information" >U</a></li>
+					<li><a class="popup" id="V" href="./visit_form.htm" title="Enter Visit Information" >V</a></li>
+					<li><a class="popup" id="W" href="./visit_form.htm" title="Enter Visit Information" >W</a></li>
+					<li><a class="popup" id="X" href="./visit_form.htm" title="Enter Visit Information" >X</a></li>
+					<li><a class="popup" id="Y" href="./visit_form.htm" title="Enter Visit Information" >Y</a></li>
+					<li><a class="popup" id="Z" href="./visit_form.htm" title="Enter Visit Information" >Z</a></li>
 					<li>*</li>
 				</ul>
 			</li>
