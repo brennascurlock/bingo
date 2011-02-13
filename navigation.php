@@ -3,7 +3,7 @@
 	<img id="logo" src="bingo_logo_small.png" />
 	
 	<h1>Restaurant Bingo</h1>
-	<h2>Fun for Foodies</h3>
+	<h2>Fun for Foodies</h2>
 
 <nav>
 	<ul>
