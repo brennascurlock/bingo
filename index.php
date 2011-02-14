@@ -29,10 +29,29 @@
 
 	<p>Welcome to Restaurant Bingo, the game where you eat your way to success!</p>
 	
-	<p>Vivamus pharetra egestas mauris nec gravida. Nunc fringilla lorem a tellus congue vitae iaculis mi tristique. Nullam suscipit eros sed quam dignissim venenatis. Suspendisse potenti. Ut eleifend semper odio, et sollicitudin neque placerat eget. Sed urna lectus, ullamcorper ac bibendum et, ullamcorper nec magna. Cras eget viverra est. Etiam nec est eu est faucibus ultrices. Donec in nisl id velit posuere congue. Curabitur venenatis tincidunt felis elementum feugiat. In vel felis risus.</p>
-
-	<p>Nulla ultrices laoreet eros eget mattis. Aliquam ut rhoncus libero. Vestibulum ac augue felis. Phasellus rhoncus gravida erat. Pellentesque ante mi, egestas quis iaculis vitae, lobortis id lectus. Pellentesque volutpat arcu eget augue tincidunt cursus. Maecenas luctus porta consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam in orci sed neque porta adipiscing vitae sed dolor. Integer mollis fermentum velit, vitae luctus ipsum imperdiet sit amet. Aliquam quis tempus nisl. Cras vel est tortor.</p> 
-
+	<section class="rules">
+	
+	<h2>How to play:</h2>
+	
+		<ol>
+			<li>Players must eat at 24 unique restaurants in Chicago, each starting with one different letter of the alphabet.</li>
+			<li>Players should keep track of their progress on the interactive bingo card.</li>
+			<li>To prove their visit to each restaurant, players must either take a photo of themselves with the menu or "check in" (if feature is available).</li>
+			<li>Players will have 12 months to complete their bingo card.</li>
+			<li>Players each get one "wild card" which they can substitute for any letter.</li>
+		</ol>	
+			
+	<h2>Some guidelines:</h2>		
+			
+		<ol>	
+			<li>To count as a restaurant (as opposed to a bar), the establishment must have a distinguished food menu (as opposed to, say, a popcorn machine).</li>
+			<li>Chain restaurants NOT allowed; anything with more than 2 locations is a chain.</li>
+			<li>Articles don't count in the name of the restaurant. For example, The Gage would count as "G", not "T".</li>
+	
+		</ol>
+	
+	</section>
+	
    <aside>	
 	
 	<form class="login">

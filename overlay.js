@@ -12,6 +12,7 @@ $(document).ready(function() {
 
 		$link.click(function() {
 			$dialog.dialog('open');
+			return false;
 
 			$('#visitdate').datepicker({
 				showButtonPanel: true,
@@ -20,13 +21,11 @@ $(document).ready(function() {
 				buttonImageOnly: true
 			}
 			);
-						return false;
+						
 
 		});
 
 	});
-	
-	
 
 	
 	$(function() {
@@ -35,10 +34,12 @@ $(document).ready(function() {
 		});
 	});
 
+	$('#leaderboard tbody tr:even').css('background-color','#d0d0d0');
 	$(function() {
 		$( "#draggable" ).draggable({
 			snap:true,
 			snapMode:"inner"
+
 		});
 		
 		$( ".droppable" ).droppable({

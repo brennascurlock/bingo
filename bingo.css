@@ -16,7 +16,7 @@ header{
 	background:#ED871B;
 	margin-top: 10px;
 	padding:15px;
-	padding-bottom:80px;
+	padding-bottom:70px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -80,7 +80,11 @@ section.page{
 	border-radius: 5px;
 	margin-top: -10px;
 	position:relative;
+	overflow:hidden;
+}
 
+section.jpage{
+	margin-top:0px;
 }
 
 section.page > h1{
@@ -88,10 +92,12 @@ section.page > h1{
 	font-size: 2em;
 	border-bottom: thin dotted #1D9CEB;
 	width:600px;
+	color:#1E5ABA;
 }
 
 section.page p{
 	width:600px;
+	padding-left:15px;
 }
 
 footer{
@@ -99,6 +105,29 @@ footer{
 	padding: 5px;
 }
 
+/*Rules of the Game*/
+
+section.rules{
+	width:600px;
+	padding-left:15px;
+}
+
+section.rules h2{
+	font-size:1.2em;
+	font-family: 'Cabin', arial, serif;
+	font-weight:bold;
+	color:#1E5ABA;
+}
+
+section.rules ol{
+	padding-left:20px;
+}
+
+section.rules li{
+	list-style-type:circle;
+	padding-top:5px;
+	padding-bottom:5px;
+}
 
 /*Login Form CSS*/
 
@@ -128,22 +157,35 @@ form.login a{
 	font-weight:bold;
 }
 
+form.newaccount input{
+	margin:5px 0px 10px 0px;
+}
+
+/*Leaderboard Table*/
+table#leaderboard th{
+	font-size:1.2em;
+	font-family: 'Cabin', arial, serif;
+	font-weight:bold;
+	padding-left:10px;
+}
+
+table#leaderboard td{
+	padding:5px 30px 5px 10px;
+}
 
 /*Leaderboard Page CSS*/
 
 section.rank-all
 {
-	margin-left:25px;
 	padding:10px;
 	width:575px;
 	position:relative;
-	background-color:white;
 }
 
 section.rank-all h1
 {
 	font-size:1.2em;
-
+	font-family: 'Cabin', arial, serif;
 }
 
 section.rank-all ol li{
