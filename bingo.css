@@ -80,15 +80,11 @@ section.page{
 	border-radius: 5px;
 	margin-top: -10px;
 	position:relative;
+	overflow:hidden;
 }
 
 section.jpage{
-	padding:  5px;
-	background-color:#DBE3E3;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	position:relative;
+	margin-top:0px;
 }
 
 section.page > h1{
