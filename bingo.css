@@ -153,6 +153,9 @@ form.login a{
 	font-weight:bold;
 }
 
+form.newaccount input{
+	margin:5px 0px 10px 0px;
+}
 
 /*Leaderboard Page CSS*/
 
