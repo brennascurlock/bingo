@@ -88,10 +88,12 @@ section.page > h1{
 	font-size: 2em;
 	border-bottom: thin dotted #1D9CEB;
 	width:600px;
+	color:#1E5ABA;
 }
 
 section.page p{
 	width:600px;
+	padding-left:15px;
 }
 
 footer{
@@ -101,14 +103,26 @@ footer{
 
 /*Rules of the Game*/
 
-article.rules{
-	padding-left:20px;	
+section.rules{
+	width:600px;
+	padding-left:15px;
 }
 
+section.rules h2{
+	font-size:1.2em;
+	font-family: 'Cabin', arial, serif;
+	font-weight:bold;
+	color:#1E5ABA;
+}
 
+section.rules ol{
+	padding-left:20px;
+}
 
-article.rules li{
-	list-style-type:decimal;
+section.rules li{
+	list-style-type:circle;
+	padding-top:5px;
+	padding-bottom:5px;
 }
 
 /*Login Form CSS*/
@@ -144,7 +158,7 @@ form.login a{
 
 section.rank-all
 {
-	margin-left:25px;
+	margin-left:15px;
 	padding:10px;
 	width:575px;
 	position:relative;
