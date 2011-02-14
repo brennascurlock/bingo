@@ -146,12 +146,13 @@ $(document).ready(function() {
       		<h1>Hot right now</h1>
                 
                 <ul id="restaurantinfo">
-			<li><img src="" id="restaurantimg" title="Nana" /></li>
+			<li><img src="nana.jpg" id="restaurantimg" title="Nana" /></li>
                         <li class="boxtitle" id="restaurantname">Nana</li>
 			<li id="location">Bridgeport</li>
 		</ul>
       
                 <ul id="recentvisits">
+                        <li class="boxtitle">Recent visitors</li>
                         <li>Bugs Bunny</li>
                         <li>Tom Cruise</li>
                         <li>Micky Mouse</li>

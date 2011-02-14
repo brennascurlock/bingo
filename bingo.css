@@ -107,6 +107,14 @@ footer{
 	padding: 5px;
 }
 
+/*aside{
+	background-color:#1E5ABA;
+	width:220px;
+	position:absolute;
+	right:10px;
+	top:30px;
+}*/
+
 /*Rules of the Game*/
 
 section.rules{
@@ -131,9 +139,9 @@ section.rules li{
 	padding-bottom:5px;
 }
 
-/*Login Form CSS*/
+/*Aside CSS*/
 
-form.login, ul.profile{
+form.login, ul.profile, section.featured, section.rankspecial{
 	position:absolute;
 	right:10px;
 	top:30px;
@@ -142,8 +150,10 @@ form.login, ul.profile{
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	width:220px;
+	color:white;
 }
 
+/*Login Form CSS*/
 form.login li{
 	padding-bottom:5px;
 	position:relative;
@@ -157,6 +167,7 @@ form.login a{
 
 .boxtitle{
 	font-weight:bold;
+	font-size:1.2em;
 }
 
 form.newaccount input{
@@ -207,7 +218,7 @@ section.rank-all ul > li + li + li{
 	left:240px;
 }
 
-section.rankspecial{
+/*section.rankspecial{
 	width:220px;
 	position:absolute;
 	right:10px;
@@ -217,7 +228,7 @@ section.rankspecial{
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	color:white;
-}
+}*/
 
 section.rankspecial h1{
 	font-size:1.75em;
@@ -253,7 +264,18 @@ section.restaurants{
 	margin-left:20px;
 }
 
+section.featured ul{
+	padding-top:10px;
+}
 
+section.featured h1{
+	font-size:1.75em;
+	color:white;	
+}
+
+section.featured img{
+	width:200px;
+}
 /*Bingo Card*/
 
 section.bingocard{
