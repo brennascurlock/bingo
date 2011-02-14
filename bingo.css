@@ -16,7 +16,7 @@ header{
 	background:#ED871B;
 	margin-top: 10px;
 	padding:15px;
-	padding-bottom:80px;
+	padding-bottom:70px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -181,11 +181,9 @@ table#leaderboard td{
 
 section.rank-all
 {
-	margin-left:15px;
 	padding:10px;
 	width:575px;
 	position:relative;
-	background-color:white;
 }
 
 section.rank-all h1
