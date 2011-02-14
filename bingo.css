@@ -80,7 +80,15 @@ section.page{
 	border-radius: 5px;
 	margin-top: -10px;
 	position:relative;
+}
 
+section.jpage{
+	padding:  5px;
+	background-color:#DBE3E3;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	position:relative;
 }
 
 section.page > h1{
@@ -157,6 +165,18 @@ form.newaccount input{
 	margin:5px 0px 10px 0px;
 }
 
+/*Leaderboard Table*/
+table#leaderboard th{
+	font-size:1.2em;
+	font-family: 'Cabin', arial, serif;
+	font-weight:bold;
+	padding-left:10px;
+}
+
+table#leaderboard td{
+	padding:5px 30px 5px 10px;
+}
+
 /*Leaderboard Page CSS*/
 
 section.rank-all
@@ -171,7 +191,7 @@ section.rank-all
 section.rank-all h1
 {
 	font-size:1.2em;
-
+	font-family: 'Cabin', arial, serif;
 }
 
 section.rank-all ol li{

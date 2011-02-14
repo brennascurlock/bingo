@@ -30,6 +30,8 @@ $(document).ready(function() {
 		});
 	});
 
+	$('#leaderboard tbody tr:even').css('background-color','#d0d0d0');
+
 	/* $('form.login a').each(function() {
 	var $link = $(this);
 	var $dialog = $('<div></div>')
