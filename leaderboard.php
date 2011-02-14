@@ -38,7 +38,7 @@
 	
 	<div id="accordion">
 		
-		<h1><a href="#">Italian</a></h1>
+		<h1><a href="#">Italian Cuisine</a></h1>
 				
 			<div>
 
@@ -55,7 +55,7 @@
 			</div>
     
 		
-		<h1><a href="#">Mexican</a></h1>
+		<h1><a href="#">Mexican Cuisine</a></h1>
 				
 			<div>
 
@@ -71,7 +71,7 @@
 			
 			</div>
 		
-		<h1><a href="#">Chinese</a></h1>			
+		<h1><a href="#">Chinese Cuisine</a></h1>			
 			
 			<div>
 
