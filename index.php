@@ -59,7 +59,7 @@
 			<li class="boxtitle">Login</li>
 			<li>Email: <input type="email" name="email" /></li>
 			<li>Password: <input type="password" name="password" /></li>
-			<li><input type="submit" value="Submit" /></li>
+			<li><a href="bingocard.php"><input type="submit" value="Submit" /></a></li>
 			<li>Don't have an account?</li>
 			<li><a href='./loginform.htm' title="Enter your information." class="popup">Sign up!</a></li>
 		</ul>	
