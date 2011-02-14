@@ -7,23 +7,27 @@ $(document).ready(function() {
 			.dialog({
 				autoOpen: false,
 				title: $link.attr('title'),
-				width: 400,
-				
-				//stack: false
-
-			});
+				width: 400
+				});
 
 		$link.click(function() {
 			$dialog.dialog('open');
 			return false;
-			
-            $('#visitdate').datepicker();
 
-			//return false;
+			$('#visitdate').datepicker({
+				showButtonPanel: true,
+				showOn: "button",
+				buttonImage: "images/calendar.gif",
+				buttonImageOnly: true
+			}
+			);
+						
+
 		});
 
 	});
 
+	
 	$(function() {
 		$( "#accordion" ).accordion({
 			collapsible: true
@@ -31,25 +35,25 @@ $(document).ready(function() {
 	});
 
 	$('#leaderboard tbody tr:even').css('background-color','#d0d0d0');
+	$(function() {
+		$( "#draggable" ).draggable({
+			snap:true,
+			snapMode:"inner"
 
-	/* $('form.login a').each(function() {
-	var $link = $(this);
-	var $dialog = $('<div></div>')
-		.load($link.attr('href'))
-		.dialog({
-			autoOpen: false,
-			title: "Enter your information.",
-			width:400,
-			height:200
 		});
-	
-	$link.click(function() {
-		$dialog.dialog('open');
-		// prevent the default action, e.g., following a link
-		return false;
+		
+		$( ".droppable" ).droppable({
+			accept: "#draggable",
+			containment: "parent",
+			activeClass: "ui-state-hover",
+			hoverClass: "ui-state-active",
+			drop: function( event, ui ) {
+				$( this )
+					.addClass( "ui-state-highlight" )
+			
+			}
 		});
 	});
-	*/
 
 });
 
