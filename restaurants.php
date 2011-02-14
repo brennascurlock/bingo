@@ -6,7 +6,7 @@
 <head>
 
 <meta charset=utf-8 />
-<title>Leaderboard</title>
+<title>Restaurants</title>
 
 <link rel="stylesheet" type="text/css" media="screen, print" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css" />
 <link rel="stylesheet" href="bingo.css" />
@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 	<p>Find out what restaurants have been added by users.</p>
 
-	
+    <section class="restaurants">
         
         <div id="accordion">
 		
@@ -138,6 +138,26 @@ $(document).ready(function() {
 			</div>
         
         </div>      
+
+    </section>
+
+    <section class="featured">
+      
+      		<h1>Hot right now</h1>
+                
+                <ul id="restaurantinfo">
+			<li><img src="" id="restaurantimg" title="Nana" /></li>
+                        <li class="boxtitle" id="restaurantname">Nana</li>
+			<li id="location">Bridgeport</li>
+		</ul>
+      
+                <ul id="recentvisits">
+                        <li>Bugs Bunny</li>
+                        <li>Tom Cruise</li>
+                        <li>Micky Mouse</li>
+                </ul>
+        
+    </section>
 
 </section>
 
