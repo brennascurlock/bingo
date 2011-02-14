@@ -29,9 +29,9 @@
 
 	<p>Welcome to Restaurant Bingo, the game where you eat your way to success!</p>
 	
-	<article class="rules">
+	<section class="rules">
 	
-	<h2>Rules of the game</h2>
+	<h2>How to play:</h2>
 	
 		<ol>
 			<li>Players must eat at 24 unique restaurants in Chicago, each starting with one different letter of the alphabet.</li>
@@ -39,13 +39,18 @@
 			<li>To prove their visit to each restaurant, players must either take a photo of themselves with the menu or "check in" (if feature is available).</li>
 			<li>Players will have 12 months to complete their bingo card.</li>
 			<li>Players each get one "wild card" which they can substitute for any letter.</li>
+		</ol>	
+			
+	<h2>Some guidelines:</h2>		
+			
+		<ol>	
 			<li>To count as a restaurant (as opposed to a bar), the establishment must have a distinguished food menu (as opposed to, say, a popcorn machine).</li>
 			<li>Chain restaurants NOT allowed; anything with more than 2 locations is a chain.</li>
 			<li>Articles don't count in the name of the restaurant. For example, The Gage would count as "G", not "T".</li>
 	
 		</ol>
 	
-	</article>
+	</section>
 	
    <aside>	
 	
