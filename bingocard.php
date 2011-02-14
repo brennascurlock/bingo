@@ -5,7 +5,7 @@
 
 <head>
 <meta charset="utf-8" />
-<title>Page Title</title>
+<title>Bugs Bunny's Bingocard</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script>
 <script src="overlay.js"></script>
@@ -19,13 +19,13 @@
 <?php include("navigation.php"); ?>
 
 <section class="page">
-	<h1>Your Bingo Card</h1>
+	<h1>Bugs Bunny's Bingo Card</h1>
 
 		<section class="bingocard">
 		<ul>
 			<li>
 				<ul class="abc">
-					<li><a class="popup" id="A" href="./visit_form.htm" title="Enter Visit Information" >A</a></li>
+					<li class="droppable"><a class="popup" id="A" href="./visit_form.htm" title="Enter Visit Information" >A</a></li>
 					<li><a class="popup" id="B" href="./visit_form.htm" title="Enter Visit Information" >B</a></li>
 					<li><a class="popup" id="C" href="./visit_form.htm" title="Enter Visit Information" >C</a></li>
 					<li><a class="popup" id="D" href="./visit_form.htm" title="Enter Visit Information" >D</a></li>
@@ -61,14 +61,14 @@
 					<li><a class="popup" id="X" href="./visit_form.htm" title="Enter Visit Information" >X</a></li>
 					<li><a class="popup" id="Y" href="./visit_form.htm" title="Enter Visit Information" >Y</a></li>
 					<li><a class="popup" id="Z" href="./visit_form.htm" title="Enter Visit Information" >Z</a></li>
-					<li>*</li>
+					<li id="draggable">*</li>
 				</ul>
 			</li>
 			
 		</ul>
 		</section>
+		
 		<aside>	
-
 		<ul class="profile">
 			<li>
 				<ul class="personal">
@@ -82,16 +82,16 @@
 			<li>
 				<ul class="rank">
 					<li class="subheading">Challenge:</li>
-					<li>36% complete</li>
+					<li>75% complete</li>
 					<li class="subheading">Rank:</li>
-					<li>Overall: 234</li>
-					<li>Italian: 22</li>
+					<li>Overall: #2</li>
+					<li>Italian: #2</li>
 				</ul>
 			</li>
 		</ul>
 		
 
-   </aside>
+		 </aside>
 </section>
 
 <footer>
