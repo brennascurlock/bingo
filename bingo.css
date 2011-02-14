@@ -207,7 +207,7 @@ section.bingocard{
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	width:595px;
-	background-color: black;
+	background-color: #222222;
 	overflow:auto;
 }
 
@@ -215,7 +215,7 @@ ul.bingocard{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	background: black;
+	background: #222222;
 }
 
 
@@ -232,9 +232,13 @@ ul.bingocard{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	text-shadow: 1px 1px 2px #999;
-	box-shadow: 1px 1px 2px white;
 	list-style:none;
-	background-image:-webkit-gradient(linear, 0% 0%, 0% 81%, from(#666666), to(#F8F0FC), color-stop(1,#333333));
+	color:#ED871B;
+	-webkit-box-shadow: 1px 2px 2px white;
+}
+
+.abc li a, a:active {
+	color:#ED871B;
 }
 
 /*User Profile*/
@@ -287,12 +291,10 @@ img.profile{
 
 /*Visit Information Form*/
 
-form#visit > fieldset > label {
-	display: block;
-	color:red;
-}
+/*form#visit > fieldset > label {
+}*/
 
-#visit fieldset {
+form#visit fieldset {
 	margin: 10px 0px;
 }
 
@@ -326,8 +328,8 @@ form#visit > fieldset > label {
 /*Visit Form Overlay*/
 
 .ui-widget-header{
-padding: 10px;
-background:#ED871B;
+	padding: 10px;
+	background:#ED871B;
 }
 
 .ui-widget-content{
