@@ -279,6 +279,13 @@ ul.bingocard{
 	-webkit-box-shadow: 1px 2px 2px white;
 }
 
+.abc li.completed{
+	background-color: #1E5ABA;
+}
+
+.abc li.completed a, a:active{
+	color: white;
+}
 .abc li a, a:active {
 	color:#ED871B;
 }
@@ -331,6 +338,12 @@ img.profile{
 	width: 85px;
 }
 
+/*Visit Page*/
+img.restaurant{
+	float: right;
+	border: thin solid white;
+	width: 85px;
+}
 /*Visit Information Form*/
 
 /*form#visit > fieldset > label {

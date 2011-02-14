@@ -31,7 +31,7 @@
 					<li><a class="popup" id="D" href="./visit_form.htm" title="Enter Visit Information" >D</a></li>
 					<li><a class="popup" id="E" href="./visit_form.htm" title="Enter Visit Information" >E</a></li>
 					<li><a class="popup" id="F" href="./visit_form.htm" title="Enter Visit Information" >F</a></li>
-					<li><a class="popup" id="G" href="./visit_form.htm" title="Enter Visit Information" >G</a></li>
+					<li class="completed"><a class="popup" id="G" href="./visit_G.htm" title="Completed G" >G</a></li>
 					<li><a class="popup" id="H" href="./visit_form.htm" title="Enter Visit Information" >H</a></li>
 					<li><a class="popup" id="I" href="./visit_form.htm" title="Enter Visit Information" >I</a></li>
 				</ul>
