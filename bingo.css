@@ -85,6 +85,8 @@ section.page{
 
 section.jpage{
 	margin-top:0px;
+	background-color:#DBE3E3;
+	padding:5px;
 }
 
 section.page > h1{
@@ -210,14 +212,20 @@ section.rankspecial{
 	position:absolute;
 	right:10px;
 	top:20px;
-	background: rgba(0, 200, 55, 0.5);
+	background:#1E5ABA;
 	padding:10px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
+	color:white;
 }
 
 section.rankspecial h1{
 	font-size:1.75em;
+	color:white;
+}
+
+section.rankspecial h1 a{
+	color:white;
 }
 
 #accordion h1{
@@ -227,7 +235,7 @@ section.rankspecial h1{
 }
 
 #accordion h1 a{
-	color:black;
+	
 }
 
 #accordion ol{
@@ -239,6 +247,11 @@ section.rankspecial h1{
 	padding-bottom:5px;
 }
 
+/*Restaurants Page*/
+section.restaurants{
+	width:600px;
+	margin-left:20px;
+}
 
 
 /*Bingo Card*/
