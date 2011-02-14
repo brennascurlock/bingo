@@ -16,6 +16,12 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script>
 <script src="overlay.js"></script>
 
+<script>
+$(document).ready(function() {
+    $('#accordion li').css('list-style-type','circle');
+});
+</script>
+
 </head>
 
 <body>
@@ -24,73 +30,114 @@
 
 <section class="page">
 	
-	<h1>The Rankings</h1>
+	<h1>Restaurants</h1>
 
-	<p>How do you rank against other players? Find out here!</p>
+	<p>Find out what restaurants have been added by users.</p>
 
-		
-<?php include("leadertable.htm"); ?>
-
-
-	<section class="rankspecial">
-		
-		<h1>Categories</h1>
 	
-	<div id="accordion">
+        
+        <div id="accordion">
 		
-		<h1><a href="#">Italian</a></h1>
+		<h1><a href="#">A</a></h1>
 				
 			<div>
 
 				<ol>
-					<li>Tom Cruise</li>
-					<li>Bugs Bunny</li>
-					<li>Harvey Birdman</li>
-					<li>Papa Smurf</li>
-					<li>Abe Lincoln</li>
+					<li>Alliance Bakery</li>
+					<li>Atwood Cafe</li>
 				</ol>
-			
-				<p><a href="">View All</a></p>
 			
 			</div>
     
 		
-		<h1><a href="#">Mexican</a></h1>
+		<h1><a href="#">B</a></h1>
 				
 			<div>
 
 				<ol>
-					<li>Abe Lincoln</li>
-					<li>Harry Potter</li>
-					<li>Mr. Suffleupagus</li>
-					<li>Tom Cruise</li>
-					<li>Roadrunner</li>
+					<li>Bite</li>
+					<li>The Boardwalk</li>
+                                        
 				</ol>
-			
-				<p><a href="">View All</a></p>
 			
 			</div>
 		
-		<h1><a href="#">Chinese</a></h1>			
+		<h1><a href="#">C</a></h1>			
 			
 			<div>
 
 				<ol>
-					<li>Elmer Fudd</li>
-					<li>Harvey Birdman</li>
-					<li>Lord Voldemort</li>
-					<li>Britney Spears</li>
-					<li>John Locke</li>
+					<li>Cafe Burlesque</li>
+					<li>Cinnastick</li>
+					<li>Curly Friez</li>
+
 				</ol>
-			
-				<p><a href="">View All</a></p>
 			
 			</div>
 		
+                <h1><a href="#">D</a></h1>			
+			
+			<div>
 
-	</div>
+				<ol>
+					<li>Darkwood Lounge</li>
+					<li>Donny's Pizza</li>
+					<li>Duchamp</li>
 
-	</section>
+				</ol>
+			
+                        </div>
+    
+		<h1><a href="#">E</a></h1>
+				
+			<div>
+
+				<ol>
+					<li>Elephant and Castle</li>
+					<li>Earwax Cafe</li>
+				</ol>
+			
+			</div>
+    
+		
+		<h1><a href="#">F</a></h1>
+				
+			<div>
+
+				<ol>
+					<li>Fun Kitchen</li>
+					<li>Funk House</li>
+                                        
+				</ol>
+			
+			</div>
+		
+		<h1><a href="#">G</a></h1>			
+			
+			<div>
+
+				<ol>
+					<li>Goober's</li>
+					<li>Garden Fiesta</li>
+					<li>GaGa Lounge</li>
+
+				</ol>
+			
+			</div>
+		
+                <h1><a href="#">H</a></h1>			
+			
+			<div>
+
+				<ol>
+					<li>House of Hotcakes</li>
+					<li>Harp's</li>
+
+				</ol>
+			
+			</div>
+        
+        </div>      
 
 </section>
 
